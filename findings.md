@@ -2,7 +2,7 @@
 
 ## Project Goal
 
-This project explores whether Amazon Fashion reviews and product metadata can help AIL/SensoryFair identify early sensory-risk signals in products.
+Explores whether Amazon Fashion reviews and product metadata can help AIL/SensoryFair identify early sensory-risk signals in products.
 
 The goal is not to create a final autism-safe classifier yet. The current goal is to build a clean data pipeline, understand the dataset, and decide whether the data is useful enough for weak labeling, dashboarding, and later ML work.
 
