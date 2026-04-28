@@ -8,19 +8,19 @@ The goal is not to create a final autism-safe classifier yet. The current goal i
 
 ## What Was Completed
 
-I downloaded the full `Amazon_Fashion` review and metadata files locally as `.jsonl` files.
+The full `Amazon_Fashion` review and metadata files were downloaded locally as `.jsonl` files.
 
-I created a project structure with separate folders for source code, raw data, intermediate files, processed files, notebooks, outputs, models, and dashboard work.
+A project structure was created with separate folders for source code, raw data, intermediate files, processed files, notebooks, outputs, models, and dashboard work.
 
-I created a `config.py` file so paths and project settings are stored in one central place. This makes the pipeline easier to update and easier for teammates to understand.
+A `config.py` file was created to store paths and project settings in one central place. This makes the pipeline easier to update and easier for teammates to understand.
 
-I created a local sanity check script to confirm that the raw review and metadata files exist, can be read, and contain the expected fields.
+A local sanity check script was created to confirm that the raw review and metadata files exist, can be read, and contain the expected fields.
 
-I created a 20,000-row dev sample from the full Amazon Fashion review file. This sample was used for debugging, learning, and early EDA before running anything on the full dataset.
+A 20,000-row dev sample was created from the full Amazon Fashion review file. This sample was used for debugging, learning, and early EDA before running anything on the full dataset.
 
-I matched product metadata to the review sample using `parent_asin`. The join worked well: all sampled products had matching metadata, with 0 missing `parent_asin` matches.
+Product metadata was matched to the review sample using `parent_asin`. The join worked well: all sampled products had matching metadata, with 0 missing `parent_asin` matches.
 
-I built a DuckDB database and joined review data with product metadata into one analysis-ready file.
+A DuckDB database was built, and review data was joined with product metadata into one analysis-ready file.
 
 ## Why We Used a 20,000-Row Dev Sample
 

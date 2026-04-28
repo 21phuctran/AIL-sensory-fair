@@ -1,5 +1,0 @@
-touch data/raw/.gitkeep
-touch data/interim/.gitkeep
-touch data/processed/.gitkeep
-touch outputs/.gitkeep
-touch models/.gitkeep
