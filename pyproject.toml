@@ -1,0 +1,19 @@
+[project]
+name = "ail-sensory-fair"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.8.5",
+    "duckdb>=1.5.2",
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "panda>=0.3.1",
+    "pandas>=3.0.2",
+    "pyarrow>=24.0.0",
+    "scikit-learn>=1.8.0",
+    "tqdm>=4.67.3",
+]
