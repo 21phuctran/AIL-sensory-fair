@@ -24,3 +24,10 @@ META_DEV_PARQUET = INTERIM_DIR / f"{CATEGORY}_metadata_dev_matched.parquet"
 JOINED_PARQUET = PROCESSED_DIR / f"{CATEGORY}_joined_reviews.parquet"
 LABELED_PARQUET = PROCESSED_DIR / f"{CATEGORY}_weak_labeled_reviews.parquet"
 PRODUCT_SCORES_CSV = PROCESSED_DIR / f"{CATEGORY}_product_sensory_scores.csv"
+
+SENSORY_DIR = PROCESSED_DIR / "sensory"
+
+SENSORY_SUBSET_PARQUET = SENSORY_DIR / f"{CATEGORY}_sensory_subset.parquet"
+
+SENSORY_ANALYSIS_DIR = PROJECT_ROOT / "outputs" / "sensory_analysis"
+SENSORY_REPORT_MD = SENSORY_ANALYSIS_DIR / f"{CATEGORY}_sensory_analysis_report.md"
